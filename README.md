@@ -5,5 +5,12 @@ Desarrollo de una sistema web para el registro, visualización de citas médicas
 Cuenta con los siguientes módulos:
 	
 ADMINISTRADOR: login, nueva cita, médicos, ficha médica.
-CLIENTE: reservar una cita
+
+CLIENTE: reservar una cita.
+
+📄 [Ver las interfaces (PDF)](PROY_ODONTOLOGIA_PHP.pdf)
+
+📄 [Ver las interfaces (PDF)](PROY_ODONTOLOGIA_CLIENTE.pdf)
+
+
 
