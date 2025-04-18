@@ -1,0 +1,2947 @@
+:root {
+    /*COLORES DE LA PAGINA*/
+     --pri-color:#5cc9d0;
+     --seg-color:white;
+     --ter-color:black;
+     --cut-color:#50bcde;
+     --qit-color:#ef648d;
+     --set-color:#e7e0e09c;
+     --oct-color:#5cc8d096;
+    
+    }
+*{
+        margin:0;
+        box-sizing: border-box;
+        font-family:mifuente;
+}
+    
+@font-face{
+    
+        font-family: mifuente;
+        src:url(Harmattan/Harmattan-Regular.ttf);
+        
+}
+
+.img_principal{
+/*display: none;*/
+    height: 968px;
+    width: 100%;
+    background-color: white;
+}
+
+.img_principal img{
+
+height: 100%;
+background-size: cover;
+
+
+}
+
+
+.caja_datos_hijo img{
+
+    
+    width: 250px;
+    height: 80px;
+    padding: 0px 10px;
+    margin: 20px 0px;
+}
+
+.caja_datos_hijo{
+
+   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    height: 60%;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(55, 127, 185, 0.315);
+    border-radius: 10px;
+    
+    
+
+}
+.caja_datos_hijo h2{
+
+    color: black;
+    font-size: 26px;
+}
+
+
+.input_i_s{
+
+    background-color:white;
+    /*justify-content: space-between;*/
+    border: none;
+    width:80% ;
+    height: 40px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 6px;
+    outline: none;
+    
+    
+}
+
+.btn_ingresos_hijo_1{
+
+    
+    border-radius: 6px;
+    
+    background-color: var(--pri-color);
+    text-align: center;
+    margin: 20px 20px;
+    height: 30px;
+    font-size: 15px;
+    width: 120px;
+    color:black;
+    padding: 3px 20px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.btn_ingresos_hijo_1:hover{
+
+    
+    color:white;
+    background-color: #ef648d;
+}
+
+
+.btn_ingresos_hijo:hover{
+
+   
+    color: var(--seg-color); 
+    
+}
+
+.caja_datos_hijo span{
+
+    color: #ef648d;
+}
+
+
+
+
+/** estilo registrase**/
+
+.btn_regis{
+
+    color: #ef648d;
+    outline: none;
+    text-decoration: none;
+
+}
+
+
+.caja_datos_hijo_2 img{
+
+    
+    width: 250px;
+    height: 80px;
+    padding: 0px 10px;
+    margin: 30px 0px;
+}
+
+.caja_datos_hijo_2{
+
+   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    height: 70%;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(79, 144, 218, 0.281);
+    border-radius: 10px;
+    
+
+}
+
+.input_i_s_2{
+
+    background-color:white;
+    justify-content: space-between;
+    border: none;
+    width:80% ;
+    height: 40px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 6px;
+    outline: none;
+    
+    
+}
+
+.btn_ingresos_2{
+
+    border: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100px;
+    background-color:var(--pri-color);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn_ingresos_2:hover{
+
+    background-color: #ef648d;
+}
+
+.caja_datos_hijo_2 span{
+
+    color: #ef648d;
+}
+
+.caja{
+
+    display: inline-flex;
+    width: 300px;
+    justify-content: space-around;
+    
+}
+
+/** cambiar contrrasena**/
+.foto_u{
+    background-size:cover;
+    background-image: url("img_pro/user.jpg");
+    object-fit: cover;
+    border-radius: 60px;
+    margin-right: 20px;
+    height: 70px;
+    width: 70px;
+    margin:  50px;
+
+}
+
+/**menu del sistema**/
+
+.conf{
+
+    display: inline-flex;
+    justify-content:flex-end;
+    width: 100%;
+    height: 50px;
+    
+
+}
+
+.conf a{
+
+    right: 0px;
+ margin: 0px 10px 0px 10px;
+    text-decoration: none;
+    color: #5cc9d0;
+
+}
+
+.conf a:hover{
+
+
+    color: #ef648d;
+}
+
+.page-header{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 20px;
+    
+    
+}
+
+.head_principal{
+  
+
+   
+    display: inline-flex;
+    width: 100%;
+    height: 100px;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.head_principal img{
+
+    
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.btn_modulo{
+
+    
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color:black;
+    width: 100px;
+    height: 50px;
+    vertical-align: middle;
+
+}
+
+.btn_desliz{
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 0px;
+    vertical-align: middle;
+    padding-top: 40px;
+    text-align: center;
+    color:black;
+}
+#m_citas{
+
+    background-color: #5cc9d0;
+}
+.modulos{
+
+    display: inline-flex;
+    justify-content: space-around;
+
+}
+.modulos :hover{
+
+    background-color:var(--pri-color);
+}
+#m_citas :hover{
+
+    background-color: rgb(101, 56, 185);
+}
+
+.icon_user{
+
+    display: inline-flex;
+    justify-content: space-around;
+
+}
+
+.foto_user{
+
+    background-size:cover;
+    background-image: url("img_pro/user.jpg");
+    object-fit: cover;
+    border-radius: 60px;
+    margin-right: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+/*
+menu de navegacion usuario
+*/
+
+.btn_menu_user{
+
+   
+    height: 50px;
+    width: 100px;
+    margin: 0px 20px;
+
+}
+
+.btn_ico{
+    
+
+    margin: 0px 0px 0px 20px;
+    height: 50px;
+    width: 50px;
+
+}
+
+.main-links {  
+   margin: 0px;
+    list-style: none;
+  }
+
+.main-links li {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(10, 207, 197);
+  }
+  
+  .dropdown-li {
+    position: relative;
+    margin-left: 0px;
+    list-style: none;
+  }
+  
+  .dropdown-li:hover .dropdown {
+    display: block;
+    opacity: 1;
+  }
+  
+  .dropdown {
+    background-color: slateblue;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    opacity: 0;
+    display: none;
+    background: red;
+    
+  }
+  
+  .dropdown li {
+    list-style: none;
+  }
+
+
+
+/**modulo citas**/
+
+.modulo_citas{
+
+    
+    width: 100%;
+    height: auto;
+
+}
+
+.barra_cont{
+
+    background-color: var(--pri-color);
+    color:black;
+    font-size: 50px;
+    margin: 20px 100px;
+    padding: 10px 70px;
+border-radius: 10px;
+
+
+}
+
+.modulo_citas_nuevo{
+
+   
+    margin: 20px 100px;
+    padding: 10px 70px;
+
+}
+
+.btn_nueva_cita{
+
+    background-color:var(--qit-color);
+    color: white;
+    padding: 10px 30px;
+    margin:  10px 20px ;
+    width: 170px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+.btn_nueva_cita:hover{
+
+    background-color: #d4539aab;
+}
+
+.modulo_citas_buscar{
+
+    margin: 20px 100px;
+    padding: 10px 20px;
+    justify-content: space-around;
+    
+}
+
+.citas_bus_medico{
+
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+
+
+.icon{
+
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 10px;
+    background-image:url("img_pro/3586371-calendar-date-event-schedule_107943.svg");
+
+}
+#icon_med{
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:url("img_pro/doctor_icon_142653.svg");
+}
+
+.btn_buscar{
+
+    background-color: var(--cut-color);
+    color: white;
+    padding: 5px 20px;
+    margin:  8px 8px ;
+    width: 150px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+
+
+}
+
+.btn_buscar:hover{
+
+    background-color:#1d2ae2e1;
+}
+
+.sel{
+
+    width:200px;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px;
+    border-color: black;
+    border-style: solid;
+    outline: none;
+    font-size: 20px;
+}
+
+
+
+.pestana_datos{
+
+    background-color:var(--oct-color);
+    margin: 20px 100px;
+    padding: 10px 70px;
+    width: 90%;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pestana_datos p{
+
+    
+    font-size: 25px;
+    width:160px;
+    text-align: center;
+    padding: 0px 50px;
+    vertical-align: middle;
+    margin: 0px 4px;
+
+}
+
+.car_citas {
+
+    background-color:var(--set-color);
+    margin: 20px 100px;
+    padding: 10px 70px;
+    width: 90%;
+    align-items: center;
+   
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.car_citas p{
+
+    color: black;
+    font-size: 20px;
+    width:160px;
+    text-align: center;
+    
+    padding: 0px 50px;
+    vertical-align: middle;
+    
+    margin: 0px 4px;
+
+
+}
+
+.icon_admin{
+
+    display: inline-flex;
+    justify-content: space-around;
+    width: 240px;
+}
+
+.icon_admin_1{
+
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+
+}
+
+.icon_admin_1 svg{
+
+    
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+
+.icon_admin_1 svg:hover{
+
+    background-color: #ef648d;
+
+}
+
+/**modal nueva cita**/
+
+.cont_modal{
+    
+    z-index: 10;
+    top: 0%;
+    position: fixed;
+    background-color: #0f0f0fb0;
+    width: 100%;
+    height: 100%;
+   
+    
+
+}
+
+.cont_citas{
+        background-color: #f9f9f9;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        width: 80%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+    
+
+}
+
+.titulo_modulo{
+
+
+    text-align: center;
+    font-size: 29px;
+    background-color: #5cc9d0;
+    
+
+}
+.btn_volver{
+
+    text-decoration: none;
+    color: #5cc9d0;
+    font-size: 20px;
+    
+}
+.from_cont{
+
+
+   
+    padding: 30px;
+    width: 100%;
+
+}
+
+.btn_close{
+
+
+    font-size: 45px;
+    color:black;
+    height:50px;
+    width:50px;
+    text-align: center;
+    float: right;
+    cursor:pointer;
+}
+
+.btn_close:hover{
+
+    color: red;
+
+
+}
+
+.datos_cita{
+
+   
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+
+
+}
+.titulo{
+    font-size: 25px;
+    
+}
+
+.datos_cita_1{
+
+margin: 0px 20px;
+display: flex;
+flex-direction:column;
+justify-content: start;
+align-items: center;
+
+}
+.datos_cita_1 input{
+
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    background-color: var(--set-color);
+    padding: 0px 20px;
+}
+
+.datos_cita_2{
+
+    margin: 0px 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: start;
+    align-items: center;
+
+
+}
+
+.datos_cita_2 input{
+
+    outline: none;
+    border: none;
+    height: 30px; 
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: var(--set-color);
+    padding: 0px 20px;
+
+}
+
+.sele_servicio{
+
+    background-color: var(--set-color);
+    outline: none;
+    border: none;
+    height: 40px; 
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+
+.check_genero{
+
+    display: inline-flex;
+    justify-content: flex-start;
+
+    width: 150px;
+    height: 10px;
+    margin: 0px;
+    
+    
+
+}
+
+
+
+
+.cont_medicos_guardar{
+
+    
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 20px;
+
+}
+
+.datos_medicos{
+
+    padding: 100px;
+
+}
+
+.btn_h_visu{
+
+    background-color:var(--qit-color);
+    padding: 0px 10px;
+    margin: 0px 10px;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    right: 0px;
+    text-align: center;
+    justify-content: flex-end;
+    color: white;
+    font-size: 15px;
+    cursor:pointer;
+
+
+}
+
+.btn_h_visu:hover{
+
+    background-color: #e05e85a6;
+    color: white;
+}
+
+
+.btn_guardar{
+
+    background-color: var(--pri-color);
+    padding: 0px 40px;
+    margin: 0px;
+  
+    border-radius: 10px;
+    right: 0px;
+    position: fixed;
+    float:right;
+    margin: 90px 20px 20px 0px;
+    color: white;
+    cursor:pointer;
+    border: none;
+
+}
+
+.btn_guardar:hover{
+
+    background-color: #ef648d;
+    color: white;
+}
+
+
+/**tablas**/
+
+.tabla_cont{
+
+  
+    margin: 20px 100px;
+    padding: 10px 70px;
+    width: 90%;
+
+    
+    
+
+
+}
+.tabla_cabeza{
+    background-color: var(--oct-color);
+   
+    border-radius: 10px;
+    font-size: 20px;
+
+
+
+}
+
+.tabla_cuerpo{
+
+background-color: var(--set-color);
+
+
+}
+
+.btn-c{
+
+
+    text-decoration: none;
+    color: white;
+    background-color: #ef648d;
+    width: 100px;
+    padding: 0px 10px;
+}
+.btn-c:hover{
+
+    background-color:var(--pri-color);
+}
+
+
+
+
+/**modulo medicos**/
+
+.modulo_citas_medicos{
+
+   
+    display: none;
+}
+
+.foto_medico{
+
+
+    height: 150px;
+    width: 100px;
+    background-size: cover;
+
+}
+
+.foto_medico img{
+
+
+    background-size: cover;
+    object-fit: cover;
+    height: 150px;
+    width: 100px;
+}
+
+
+/**modal registrar medico**/
+
+.cont_modal_medico{
+
+    background-color: rgba(0, 0, 0, 0.562);
+    z-index: 10;
+    top: 0%;
+    position: fixed;
+    background-color: #0f0f0fb0;
+    width: 100%;
+    height: 100%;
+    display: none;
+
+
+}
+
+.cont_modal_medi{
+
+    background-color: #f9f9f9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+
+}
+
+.cont_modal_medi p{
+
+    font-size: 30px;
+    
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.btn_close_medico{
+
+    font-size: 45px;
+    color:black;
+    height:50px;
+    width:50px;
+    text-align: center;
+    float: right;
+    cursor:pointer;
+}
+
+.btn_close_medico:hover{
+
+    color: red;
+
+
+}
+
+.cont_regis_medi{
+
+    display: inline-flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-bottom: 50px;
+
+
+}
+
+.cont_datos_medico{
+
+
+    margin: 0px 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.input_medico{
+
+    outline: none;
+    border: none;
+    height: 30px; 
+    width: 300px;
+   margin: 5px 5px;
+    border-radius: 10px;
+    background-color: var(--set-color);
+    padding: 0px 10px;
+   
+}
+
+.check_genero_medi{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 250px;
+    height: 25px;
+    margin: 0px 10px;
+   
+}
+
+.cont_foto_medico{
+
+
+    margin: 0px 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: start;
+    align-items: center;
+
+}
+.cont_foto_medico p{
+
+margin: 0%;
+
+}
+
+.foto{
+
+    width: 150px;
+    height: 150px;
+    background-color:rgb(240, 234, 222);
+    margin: 25px 0px ;
+}
+
+.btn_guardar_medico{
+
+    background-color: var(--pri-color);
+    height: 30px;
+    color: white;
+    padding: 0px 40px;
+    margin: 0px;
+    border-radius: 10px;
+    right: 0px;
+    position: fixed;
+    float:right;
+    margin: 300px 50px 20px ;
+    cursor:pointer;
+}
+
+.btn_guardar_medico:hover{
+
+
+    background-color: #ef648d;
+    color: white;
+
+}
+
+/**modal horarios y servicios**/
+
+
+
+
+.cont_horarios p {
+
+background-color: var(--pri-color);
+font-size: 45px;
+text-align:left;
+margin: 30px 70px;
+padding: 0px 60px;
+}
+
+.caja_horario{
+background-color:#d4539aab;
+width: 100%;
+height: 500px;
+
+}
+.input_servicios{
+
+    outline: none;
+    border: none;
+    height: 30px; 
+    width: 250px;
+   margin: 5px 30px;
+    border-radius: 10px;
+    background-color: var(--set-color);
+    padding: 0px 10px;
+    display: inline-flex;
+
+}
+
+.caja_input{
+
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 90px;
+}
+
+.btn_guardar_servicio{
+ background-color: var(--pri-color);
+ font-size: 20px;
+ text-align: center;
+ color: white;
+ padding: 0px 20px;
+ float: right;
+ margin-right: 0px;
+border-radius: 10px;
+
+}
+
+.btn_guardar_servicio:hover{
+
+background-color: var(--qit-color);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**responsive ivan**/
+
+@media screen and (max-width: 1366px) 
+{
+    body{
+
+      
+    }
+
+    .img_principal{
+/*display: none;*/
+    height: 968px;
+    width: 100%;
+    background-color:var(--pri-color);
+}
+
+.img_principal img{
+
+height: 100%;
+background-size: cover;
+
+
+}
+
+
+.caja_datos_hijo img{
+
+    
+    width: 250px;
+    height: 80px;
+    padding: 0px 10px;
+    margin: 20px 0px;
+}
+
+.caja_datos_hijo{
+
+   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 80%;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fcfcfc4f;
+    border-radius: 10px;
+    
+    
+
+}
+.caja_datos_hijo h2{
+
+    color: black;
+    font-size: 26px;
+}
+
+.from_r{
+
+    width: 80%;
+}
+
+
+.input_i_s{
+
+    background-color:white;
+    /*justify-content: space-between;*/
+    border: none;
+    width:80% ;
+    height: 40px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 6px;
+    outline: none;
+    
+    
+}
+
+.btn_ingresos_hijo_1{
+
+    
+    border-radius: 6px;
+    
+    background-color: var(--pri-color);
+    text-align: center;
+    margin: 20px 20px;
+    height: 30px;
+    font-size: 15px;
+    width: 120px;
+    color:black;
+    padding: 3px 20px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.btn_ingresos_hijo_1:hover{
+
+    
+    color:white;
+    background-color: #ef648d;
+}
+
+
+.btn_ingresos_hijo:hover{
+
+   
+    color: var(--seg-color); 
+    
+}
+
+.caja_datos_hijo span{
+
+    color: #ef648d;
+}
+
+
+
+
+/** estilo registrase**/
+
+.btn_regis{
+
+    color: #ef648d;
+    
+    text-decoration: none;
+
+}
+
+
+.caja_datos_hijo_2 img{
+
+    
+    width: 250px;
+    height: 80px;
+    padding: 0px 10px;
+    margin: 30px 0px;
+}
+
+.caja_datos_hijo_2{
+
+   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 80%;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fcfcfc4f;
+    border-radius: 10px;
+    
+
+}
+
+.input_i_s_2{
+
+    background-color:white;
+    justify-content: space-between;
+    border: none;
+    width:80% ;
+    height: 40px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 6px;
+    outline: none;
+    
+    
+}
+
+.btn_ingresos_2{
+
+    border: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100px;
+    background-color:var(--pri-color);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn_ingresos_2:hover{
+
+    background-color: #ef648d;
+}
+
+.caja_datos_hijo_2 span{
+
+    color: #ef648d;
+}
+
+.caja{
+
+    display: inline-flex;
+    width: 300px;
+    justify-content: space-around;
+    
+}
+
+/** cambiar contrrasena**/
+.foto_u{
+    background-size:cover;
+    background-image: url("img_pro/user.jpg");
+    object-fit: cover;
+    border-radius: 60px;
+    margin-right: 20px;
+    height: 70px;
+    width: 70px;
+    margin:  50px;
+
+}
+
+/**menu del sistema**/
+
+.conf{
+
+    display: inline-flex;
+    justify-content:flex-end;
+    width: 100%;
+    height: 50px;
+    
+
+}
+
+.conf a{
+
+    right: 0px;
+ margin: 0px 10px 0px 10px;
+    text-decoration: none;
+    color: #5cc9d0;
+
+}
+
+.conf a:hover{
+
+
+    color: #ef648d;
+}
+
+.page-header{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 20px;
+    
+    
+}
+
+.head_principal{
+  
+
+   
+    display: inline-flex;
+    width: 100%;
+    height: 100px;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.head_principal img{
+
+    
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.btn_modulo{
+
+    
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color:black;
+    width: 100px;
+    height: 50px;
+    vertical-align: middle;
+
+}
+
+.btn_desliz{
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 0px;
+    vertical-align: middle;
+    padding-top: 40px;
+    text-align: center;
+    color:black;
+    text-decoration: none;
+}
+#m_citas{
+
+    background-color: #5cc9d0;
+}
+.modulos{
+
+    display: inline-flex;
+    justify-content: space-around;
+
+}
+.modulos :hover{
+
+    background-color:var(--pri-color);
+}
+#m_citas :hover{
+
+    background-color: rgb(101, 56, 185);
+}
+
+.icon_user{
+
+    display: inline-flex;
+    justify-content: space-around;
+
+}
+
+.foto_user{
+
+    background-size:cover;
+    background-image:  url("img_pro/user.jpg");
+    object-fit: cover;
+    border-radius: 60px;
+    margin-right: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+/*
+menu de navegacion usuario
+*/
+
+.btn_menu_user{
+
+   
+    height: 50px;
+    width: 130px;
+    margin: 0px 20px;
+
+}
+
+.btn_ico{
+    
+
+    margin: 0px 0px 0px 20px;
+    height: 50px;
+    width: 50px;
+
+}
+
+.main-links {  
+   margin: 0px;
+    list-style: none;
+  }
+
+.main-links li {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(10, 207, 197);
+    border-radius: 5px;
+    color: black;
+  }
+  
+  .dropdown-li {
+    position: relative;
+    margin-left: 0px;
+    list-style: none;
+  }
+  
+  .dropdown-li:hover .dropdown {
+    display: block;
+    opacity: 1;
+    border-radius: 5px;
+  }
+  
+  .dropdown {
+    background-color:black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    opacity: 0;
+    display: none;
+    background:white;
+    
+  }
+  
+  .dropdown li {
+    list-style: none;
+    border-radius: 5px;
+
+  }
+
+  .dropdown li:hover{
+
+    background: var(--pri-color);
+    
+
+  }
+
+  .dropdown li a{
+
+    text-decoration: none;
+    color: black;
+
+
+  }
+
+
+/**modulo citas**/
+
+.modulo_citas{
+
+    
+    width: 100%;
+    height: auto;
+
+}
+
+.barra_cont{
+
+    background-color: var(--pri-color);
+    color:black;
+    font-size: 50px;
+    padding: 0px 35px;
+    margin: 35px 25px;
+    border-radius: 10px;
+
+
+}
+
+.modulo_citas_nuevo{
+
+   
+    margin: 20px 0px;
+    padding: 10px 70px;
+
+}
+
+.btn_nueva_cita{
+
+    background-color:var(--qit-color);
+    color: white;
+    padding: 10px 30px;
+    margin:  10px 0px ;
+    width: 170px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+.btn_nueva_cita:hover{
+
+    background-color: #d4539aab;
+}
+
+.modulo_citas_buscar{
+
+    margin: 20px 20px;
+    padding: 10px 20px;
+    justify-content: space-around;
+    
+}
+
+.citas_bus_medico{
+
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+
+
+.icon{
+
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 10px;
+    background-image:url("img_pro/3586371-calendar-date-event-schedule_107943.svg");
+
+}
+#icon_med{
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:url("img_pro/doctor_icon_142653.svg");
+}
+
+.btn_buscar{
+
+    background-color: var(--cut-color);
+    color: white;
+    padding: 5px 20px;
+    margin:  8px 8px ;
+    width: 150px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+
+
+}
+
+.btn_buscar:hover{
+
+    background-color:#1d2ae2e1;
+}
+
+.sel{
+
+    width:200px;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px;
+    border-color: black;
+    border-style: solid;
+    outline: none;
+    font-size: 20px;
+}
+
+
+
+.pestana_datos{
+
+    background-color:var(--oct-color);
+    margin: 20px 100px;
+    padding: 10px 70px;
+    width: 90%;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pestana_datos p{
+
+    
+    font-size: 25px;
+    width:160px;
+    text-align: center;
+    padding: 0px 50px;
+    vertical-align: middle;
+    margin: 0px 4px;
+
+}
+
+.car_citas {
+
+    background-color:var(--set-color);
+    margin: 20px 100px;
+    padding: 10px 70px;
+    width: 90%;
+    align-items: center;
+   
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.car_citas p{
+
+    color: black;
+    font-size: 20px;
+    width:160px;
+    text-align: center;
+    
+    padding: 0px 50px;
+    vertical-align: middle;
+    
+    margin: 0px 4px;
+
+
+}
+
+.icon_admin{
+
+    display: inline-flex;
+    justify-content: space-around;
+    width: 240px;
+}
+
+.icon_admin_1{
+
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+
+}
+
+.icon_admin_1 svg{
+
+    
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+
+.icon_admin_1 svg:hover{
+
+    background-color: #ef648d;
+
+}
+
+/**modal nueva cita**/
+
+.cont_modal{
+    
+    z-index: 10;
+    top: 0%;
+    position: fixed;
+    background-color: #0f0f0fb0;
+    width: 100%;
+    height: 100%;
+   
+    
+
+}
+
+.cont_citas{
+        background-color: #f9f9f9;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        width: 80%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+    
+
+}
+
+.titulo_modulo{
+
+
+    text-align: center;
+    font-size: 29px;
+    background-color: #5cc9d0;
+    border-radius: 10px;
+    margin: 0px 20px 0px 20px;
+    
+
+}
+.btn_volver{
+
+    text-decoration: none;
+    color: #5cc9d0;
+    font-size: 24px;
+    margin: 20px 20px 0px 20px;
+    
+}
+
+.btn_volver:hover{
+
+    color: #ef648d;
+
+}
+
+.from_cont{
+
+
+   
+    padding: 30px;
+    width: 100%;
+
+}
+
+.btn_close{
+
+
+    font-size: 45px;
+    color:black;
+    height:50px;
+    width:50px;
+    text-align: center;
+    float: right;
+    cursor:pointer;
+}
+
+.btn_close:hover{
+
+    color: red;
+
+
+}
+
+.datos_cita{
+
+   
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+
+
+}
+.titulo{
+    font-size: 25px;
+    
+}
+
+.datos_cita_1{
+
+margin: 0px 20px;
+display: flex;
+flex-direction:column;
+justify-content: start;
+align-items: center;
+
+}
+.datos_cita_1 input{
+
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    background-color: var(--set-color);
+    padding: 0px 20px;
+}
+
+.datos_cita_2{
+
+    margin: 0px 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: start;
+    align-items: center;
+
+
+}
+
+.datos_cita_2 input{
+
+    outline: none;
+    border: none;
+    height: 30px; 
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: var(--set-color);
+    padding: 0px 20px;
+
+}
+
+.sele_servicio{
+
+    background-color: var(--set-color);
+    outline: none;
+    border: none;
+    height: 40px; 
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+
+.check_genero{
+
+    display: inline-flex;
+    justify-content: flex-start;
+
+    width: 150px;
+    height: 10px;
+    margin: 0px;
+    
+    
+
+}
+
+
+
+
+.cont_medicos_guardar{
+
+    
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 20px;
+
+}
+
+.datos_medicos{
+
+    padding: 100px;
+
+}
+
+.btn_h_visu{
+
+    background-color:var(--qit-color);
+    padding: 0px 10px;
+    margin: 0px 10px;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    right: 0px;
+    text-align: center;
+    justify-content: flex-end;
+    color: white;
+    font-size: 18px;
+    cursor:pointer;
+    text-decoration: none;
+
+
+
+}
+
+
+/**codigo para tabla horarios*/
+.conten_h{
+
+    
+    width: 89%;
+    margin: 20px 65px;
+}
+
+.from_f{
+
+
+    margin: 10px 25px;
+
+}
+
+.btn_guardar_f{
+    background-color:var(--pri-color);
+    color: white;
+    padding: 0px 5px;
+    margin:  10px 20px ;
+    width: 170px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    border-style: none;
+}
+
+.btn_guardar_f:hover{
+    background-color:var(--qit-color);
+    color: white;
+
+}
+
+.tabla_cuerpo_h{
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    justify-content: start;
+    align-items: center;
+    align-content: center;
+    margin: 20px 50px;
+  
+}
+
+
+.sub_item{
+
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(230, 223, 223, 0.8);
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    width: 150px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.sub_item:hover{
+
+
+    background-color: #ef648d;
+    color: #f9f9f9;
+
+}
+
+.item_1{
+
+
+    align-items: center;
+}
+
+.item_h{
+
+
+    background-color: #fcfcfc;
+
+}
+.sub_item_her{
+
+    background-color:var(--pri-color);
+    text-align: center;
+    font-size: 18px;
+    width: 150px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+
+}
+
+.btn_h_visu:hover{
+
+    background-color: #e05e85a6;
+    color: white;
+}
+
+
+.btn_guardar{
+
+    background-color: var(--pri-color);
+    padding: 0px 40px;
+    margin: 0px;
+    height: 30px;
+    border-radius: 10px;
+    right: 0px;
+    
+    margin: 20px 20px 20px ;
+    color: white;
+    cursor:pointer;
+    border: none;
+
+}
+
+.btn_guardar:hover{
+
+    background-color: #ef648d;
+    color: white;
+}
+
+
+/** ventama horarios ingrear seviios**/
+
+
+
+
+
+/**tablas**/
+
+.tabla_cont{
+
+  
+    margin: 20px 0px;
+    padding: 10px 70px;
+    width: 99%;
+
+    
+    
+
+
+}
+.tabla_cabeza{
+    background-color: var(--oct-color);
+   
+    border-radius: 10px;
+    font-size: 20px;
+
+
+
+}
+
+.tabla_cuerpo{
+
+background-color: var(--set-color);
+
+
+}
+
+.btn-c{
+
+
+    text-decoration: none;
+    color: white;
+    background-color: #ef648d;
+    width: 100px;
+    padding: 0px 10px;
+}
+.btn-c:hover{
+
+    background-color:var(--pri-color);
+}
+
+
+
+
+/**modulo medicos**/
+
+.modulo_citas_medicos{
+
+   
+    display: none;
+}
+
+.foto_medico{
+
+
+    height: 150px;
+    width: 100px;
+    background-size: cover;
+
+}
+
+.foto_medico img{
+
+
+    background-size: cover;
+    object-fit: cover;
+    height: 150px;
+    width: 100px;
+}
+
+
+/**modal registrar medico**/
+
+.cont_modal_medico{
+
+    background-color: rgba(0, 0, 0, 0.562);
+    z-index: 10;
+    top: 0%;
+    position: fixed;
+    background-color: #0f0f0fb0;
+    width: 100%;
+    height: 100%;
+    display: none;
+
+
+}
+
+.cont_modal_medi{
+
+    background-color: #f9f9f9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+
+}
+
+.cont_modal_medi p{
+
+    font-size: 30px;
+    
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.btn_close_medico{
+
+    font-size: 45px;
+    color:black;
+    height:50px;
+    width:50px;
+    text-align: center;
+    float: right;
+    cursor:pointer;
+}
+
+.btn_close_medico:hover{
+
+    color: red;
+
+
+}
+
+.cont_regis_medi{
+
+    display: inline-flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-bottom: 50px;
+
+
+}
+
+.cont_datos_medico{
+
+
+    margin: 0px 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.input_medico{
+
+    outline: none;
+    border: none;
+    height: 30px; 
+    width: 300px;
+   margin: 5px 5px;
+    border-radius: 10px;
+    background-color: var(--set-color);
+    padding: 0px 10px;
+   
+}
+
+.check_genero_medi{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 250px;
+    height: 25px;
+    margin: 0px 10px;
+   
+}
+
+.cont_foto_medico{
+
+
+    margin: 0px 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: start;
+    align-items: center;
+
+}
+.cont_foto_medico p{
+
+margin: 0%;
+
+}
+
+.foto{
+
+    width: 150px;
+    height: 150px;
+    background-color:rgb(240, 234, 222);
+    margin: 25px 0px ;
+}
+
+.btn_guardar_medico{
+
+    background-color: var(--pri-color);
+    height: 30px;
+    color: white;
+    padding: 0px 40px;
+    margin: 0px;
+    border-radius: 10px;
+    right: 0px;
+    position: fixed;
+    float:right;
+    margin: 300px 50px 20px ;
+    cursor:pointer;
+}
+
+.btn_guardar_medico:hover{
+
+
+    background-color: #ef648d;
+    color: white;
+
+}
+
+/**modal horarios y servicios**/
+
+
+.cont_citas_2_1{
+    background-color: #f9f9f9;
+    position: absolute;
+   top: 380px;
+    left: 50%;
+    width: 80%;
+    height: 455px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.cont_citas_2{
+
+    background-color: #f9f9f9;
+    position: absolute;
+    top: 850px;
+    left: 50%;
+    width: 80%;
+    height: 383px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.titu{
+
+    margin: 0px 42px 0px 42px;
+    font-size: 20px;  
+}
+
+.btn_guardar_2_h {
+    background-color: var(--pri-color);
+    padding: 0px 40px;
+    height: 30px;
+    margin: 25px 0px 0px 835px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.btn_guardar_2_h:hover{
+
+    background-color:#db89ce;
+
+}
+
+.conte_from_1{
+
+    width: 95%;
+    height: 184px;
+    margin: 25px ;
+    
+}
+.conte_from_2{
+
+    width: 95%;
+    height:160px;
+    margin: 25px;
+}
+
+
+
+
+.cont_horarios p {
+
+background-color: var(--pri-color);
+font-size: 45px;
+text-align:left;
+margin: 30px 70px;
+padding: 0px 60px;
+}
+
+.caja_horario{
+background-color:#d4539aab;
+width: 100%;
+height: 500px;
+
+}
+.input_servicios{
+
+    outline: none;
+    border: none;
+    height: 30px; 
+    width: 250px;
+   margin: 5px 30px;
+    border-radius: 10px;
+    background-color: var(--set-color);
+    padding: 0px 10px;
+    display: inline-flex;
+
+}
+
+.caja_input{
+
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 90px;
+}
+
+.btn_guardar_servicio{
+ background-color: var(--pri-color);
+ font-size: 20px;
+ text-align: center;
+ color: white;
+ padding: 0px 20px;
+ float: right;
+ margin-right: 0px;
+border-radius: 10px;
+
+}
+
+.btn_guardar_servicio:hover{
+
+background-color: var(--qit-color);
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**responsive movil**/
+
+@media screen and (max-width:340px) 
+{
+    body{
+
+        background-color: #ef648d;
+    }
+    .img_principal{
+
+        background-color: #ef648d;
+        width: 340px;
+        height: auto;
+        
+       }
+
+   .caja_datos{
+
+    background-color:rgb(141, 84, 10);
+    width: 340px;
+    height: 1024px;
+    left: 0%;
+  
+}
+
+   .caja_datos_hijo{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    width: 60%;
+    position: absolute;
+    top: 40%;
+    
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.178);
+    border-radius: 10px;
+
+}
+
+    
+    
+}
+
+
+
+
+/**responsive tableta**/
+
+
+@media screen and (max-width:792px) 
+{
+    body{
+
+        background-color: blue;
+    }
+    .img_principal{
+
+        background-color: #ef648d;
+        width: 767px;
+        
+       }
+
+   .caja_datos{
+
+    background-color:antiquewhite;
+    width: 100%;
+    height: 1024px;
+    left: 0%;
+  
+}
+
+   .caja_datos_hijo{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    width: 60%;
+    position: absolute;
+    top: 40%;
+    
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.178);
+    border-radius: 10px;
+
+}
+
+/**header principal**/
+.head_principal{
+
+    justify-content: space-between;
+}
+
+.head_principal img{
+
+    background-color: aqua;
+    margin-right: 0px;
+    height: 100px;
+    width: 200px;
+    margin-left: 10px;
+}
+
+.btn_modulo{
+
+    
+    margin-right: 0px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    vertical-align: middle;
+    display: none;
+
+}
+
+.btn_desliz{
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 0px;
+    vertical-align: middle;
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+}
+#m_citas{
+
+    background-color: #5cc9d0;
+}
+#m_citas :hover{
+
+    background-color: rgb(101, 56, 185);
+}
+
+.modulos{
+
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+.modulos :hover{
+
+    background-color:var(--pri-color);
+}
+
+.icon_user{
+
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+
+.foto_user{
+
+    background-size:cover;
+    background-image: url("img_pro/user.jpg");
+    object-fit: cover;
+    border-radius: 60px;
+    margin-right: 20px;
+    height: 50px;
+    width: 50px;
+    display: none;
+}
+
+
+.btn_menu_user{
+
+    
+    margin-right: 20px;
+    height: 50px;
+    width: 50px;
+    margin: 0px 20px;
+
+}
+/**modulo citas**/
+
+.modulo_citas{
+
+    
+    width: 100%;
+    height: auto;
+
+}
+
+.barra_cont{
+
+    background-color: var(--pri-color);
+    color:black;
+    font-size: 50px;
+    margin: 20px 0px;
+    padding: 10px 70px;
+
+
+}
+
+.modulo_citas_nuevo{
+
+   
+    margin: 20px 0px;
+    padding: 10px 70px;
+
+}
+
+.btn_nueva_cita{
+
+    background-color:var(--qit-color);
+    color: white;
+    padding: 10px 30px;
+    margin:  10px 20px ;
+    width: 150px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+.btn_nueva_cita:hover{
+
+    background-color: #d4539aab;
+}
+
+.modulo_citas_buscar{
+
+    margin: 20px 0px;
+    padding: 10px 10px;
+    justify-content: space-around;
+    
+}
+
+.citas_bus_medico{
+
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+}
+
+.item{
+
+ 
+    display: inline-flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+    
+}
+
+.icon{
+
+    width: 90px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 0px;
+    background-image:url("img_pro/3586371-calendar-date-event-schedule_107943.svg");
+
+}
+#icon_med{
+    background-image:url("img_pro/doctor_icon_142653.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn_buscar{
+
+    background-color: var(--cut-color);
+    color: white;
+    padding: 5px 10px;
+    margin:  5px 5px ;
+    width: 150px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+
+
+}
+
+.btn_buscar :hover{
+
+    background-color:#2252d6e0;
+}
+
+.sel{
+
+    width:200px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px;
+    border-color: black;
+    border-style: solid;
+    outline: none;
+    font-size: 20px;
+}
+
+
+
+.pestana_datos{
+
+    background-color:var(--oct-color);
+    margin: 0px 0px;
+    padding: 0px 0px;
+    width: 100%;
+    border-radius: 10px;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.pestana_datos p{
+
+   
+    font-size: 15px;
+    padding: 0px 0px;
+    vertical-align: middle;
+    background-color: #ef648d;
+    margin: 0px 0px;
+    color:black;
+    width: 79px;
+
+}
+
+.car_citas {
+
+    background-color:var(--set-color);
+    margin: 15px 0px;
+    padding: 0px 0px;
+    width: 100%;
+    align-items: center;
+    display: inline-flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.car_citas p{
+
+    color: black;
+    
+    font-size: 15px;
+    
+    
+ 
+    padding: 0px 0px;
+    vertical-align: middle;
+    margin: 0px 0px;
+    
+    width: 79px;
+    background-color: #ef648d;
+
+
+}
+
+.icon_admin{
+
+    display: inline-flex;
+    justify-content: space-around;
+    width: 95px;
+}
+
+.icon_admin_1{
+
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+
+}
+
+.icon_admin_1 svg{
+
+    
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+
+.icon_admin_1 svg:hover{
+
+    background-color: #ef648d;
+
+}
+/**modulo horarios y servicios**/
+.caja_input{
+
+    display: inline-flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 90px;
+}
+
+.btn_guardar_servicio{
+    background-color: var(--pri-color);
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 0px 30px;
+    right: 0px;
+    
+    border-radius: 10px;
+   
+   }
+
+
+    
+}
+
+
+
+
+
