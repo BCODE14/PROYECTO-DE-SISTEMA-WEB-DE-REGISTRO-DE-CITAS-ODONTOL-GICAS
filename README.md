@@ -4,13 +4,22 @@ Desarrollo de una sistema web para el registro, visualización de citas médicas
 
 Cuenta con los siguientes módulos:
 	
-ADMINISTRADOR: login, nueva cita, médicos, ficha médica.
+ADMINISTRADOR: Login, nueva cita, médicos, ficha médica.
 
-CLIENTE: reservar una cita.
+CLIENTE: Reservar una cita.
 
 📄 [Ver las interfaces (PDF)](PROY_ODONTOLOGIA_PHP.pdf)
 
 📄 [Ver las interfaces (PDF)](PROY_ODONTOLOGIA_CLIENTE.pdf)
+
+
+## Autor
+- **Nombre del Autor:** Jackelin marca
+- **Correo Electrónico:** jmarca991@gmail.com
+- **GitHub:** https://github.com/BCODE14/web-tablero
+
+## Licencia
+Este proyecto está bajo la Licencia propietario.
 
 
 
