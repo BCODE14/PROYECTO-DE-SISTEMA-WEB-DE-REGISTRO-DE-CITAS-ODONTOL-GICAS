@@ -1,6 +1,18 @@
 # PROYECTO-DE-SISTEMA-WEB-DE-REGISTRO-DE-CITAS-ODONTOL-GICAS
 
-Desarrollo de una sistema web para el registro, visualización de citas médicas y un sitio web para el registro de una cita médica por parte del usuario para una clínica odontológica ubicada en la ciudad de Tacna, utilizando Html, css, javascript en la parte de frontend y php en la parte de backend además se utilizó Mysql para el almacenamiento de datos(BBDD).
+Desarrollé un sistema web para una clínica odontológica en la ciudad de Tacna, cuyo propósito es gestionar el registro y la visualización de citas médicas.
+
+El sistema cuenta con dos componentes principales:
+
+Módulo interno: permite al personal de la clínica registrar y administrar las citas médicas.
+
+Sitio web para usuarios: donde los pacientes pueden ingresar y reservar una cita de manera sencilla.
+
+En la parte tecnológica, utilicé HTML, CSS y JavaScript para el frontend, logrando una interfaz clara y amigable.
+El backend fue desarrollado en PHP, encargado de la lógica de negocio y la comunicación con la base de datos.
+Para el almacenamiento de la información se empleó MySQL, garantizando un manejo estructurado y seguro de los datos.
+
+Este sistema facilita la organización de las citas, mejora la experiencia del paciente y optimiza la gestión interna de la clínica.
 
 Cuenta con los siguientes módulos:
 	
